@@ -13,3 +13,5 @@ def main():
 
     updater.start_polling()
     updater.idle()
+import os
+TOKEN = os.getenv("BOT_TOKEN")
